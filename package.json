@@ -1,6 +1,10 @@
 {
     "name": "@backtop50/experiment",
     "version": "0.0.1",
+    "scripts": {
+        "start": "yarn webpack serve",
+        "bundle": "yarn webpack"
+    },
     "dependencies": {
         "react": "^18.2.0",
         "react-dom": "^18.2.0"
